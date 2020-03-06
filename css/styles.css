@@ -1,0 +1,144 @@
+body{
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color: #21243d;
+  font-size: 5.625rem;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  color: #21243d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+span:hover{
+  font-style: italic;
+}
+hr{
+  border-width: 5px;
+  width: 6%;
+  border-style: dotted none none;
+  border-color: #ffc7c7;
+
+}
+a{
+  color: #27496d;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+ a:hover{
+   color: #eaf6f6;
+ }
+ .copyright{
+   color: #eaf6f6;
+   font-size:0.75rem;
+   padding: 20px 0;
+
+ }
+.top-container{
+  background-color: #00a8cc;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom:0;
+}
+.middle-container{
+  background-color:#a6b1e1;
+  margin:0;
+  padding-top: 50px;
+}
+.bottom-container{
+  background-color: #00a8cc;
+  padding: 50px 0 20px;
+}
+.intro{
+  margin: 0;
+  font-size: 2rem;
+}
+.bio{
+  width:50%;
+  margin: auto;
+}
+.top-star{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top:50px;
+  right:300px;
+}
+.bottom-star{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left:300px;
+  bottom: 300px;
+}
+.city{
+  width:700px;
+  height: 350px;
+  position: relative;
+  padding-top: 100px;
+}
+.profile{
+  width:50%;
+  margin: 50px auto;
+}
+.skill-row-1{
+  width:50%;
+  margin:100px auto 175px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row-2{
+  width:50%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+}
+/********************** CONTACT ME **************************/
+.myButton {
+	background-color:#00a7cc;
+	border-radius:10px;
+	border:1px solid #1352d1;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:15px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#53e6da;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/********************* stylea images *****************/
+.sifat{
+  width:25%;
+}
+.skill-1{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.skill-2{
+  width:25%;
+  float: right;
+  margin-left:30px;
+}
